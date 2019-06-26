@@ -1,10 +1,13 @@
 # -*- coding: utf-8 -*-
 
+import json
 import shutil
 import sqlite3
 
 
 def main():
+    with open('valids.json') as f:
+        valids = set(json.loads(f.read()))
     dbconn = sqlite3.connect('upload\\signature.db')
     c = dbconn.cursor()
     c.execute('SELECT id, full_name, account, telno, addr, filename, dt FROM signature')
@@ -33,10 +36,14 @@ copy processed.csv.txt processed
 <td>上传时间（格林威治时间）</td>
 </tr>
 ''')
+    idx = 0
     for row in c.fetchall():
+        if row[0] not in valids:
+            continue
+        idx += 1
         file_ext = row[5][-4:].lower()
         html_file.write('''<tr>\n''')
-        html_file.write('''<td>%d</td>\n''' % row[0])
+        html_file.write('''<td>%d</td>\n''' % idx)
         html_file.write('''<td>%s</td>\n''' % row[1])
         html_file.write('''<td>%s</td>\n''' % row[2])
         html_file.write('''<td>%s</td>\n''' % row[3])
@@ -45,7 +52,7 @@ copy processed.csv.txt processed
         html_file.write('''<td>%s</td>\n''' % row[6])
         html_file.write('''</tr>\n''')
         bat_file.write('''copy signature_pic_%d processed\\signature_pic_%d%s\n''' % (row[0], row[0], file_ext))
-        csv_file.write('''%d\t%s\t%s\t%s\t%s\t%s\t%s\n''' % (row[0], row[1], row[2], row[3], row[4], row[5], row[6]))
+        csv_file.write('''%d\t%s\t%s\t%s\t%s\t%s\t%s\n''' % (idx, row[1], row[2], row[3], row[4], row[5], row[6]))
     html_file.write('''</table>
 </body>
 </html>
