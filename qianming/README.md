@@ -10,5 +10,5 @@
 点击底下的“下一步”继续。
 ---------------------
 
-[下一步](https://www.google.com/)
+[下一步](https://upload1.miwturizudij.xyz/step_intro.html)
 ---------------------
