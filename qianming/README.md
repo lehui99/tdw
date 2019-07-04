@@ -13,5 +13,5 @@
 点击底下的“下一步”继续。
 ---------------------
 
-[下一步](https://upload1.miwturizudij.xyz/step_intro.html)
+[下一步](https://upload1.miwturizudij.xyz/step_intro.html) （部分地区受到干扰，可能需要翻墙）
 ---------------------
