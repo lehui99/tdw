@@ -10,5 +10,5 @@
 如有任何疑问、建议或反馈，欢迎在Issues区里里留言讨论： [【点此进入Issues区】](https://github.com/lehui99/tdw/issues) 。进入后点击右上角的“New issue”按钮进行发帖，注意留言讨论需要注册账号。
 ---------------------
 
-[【点此】](https://upload1.miwturizudij.xyz:8443/step_intro.html)进入签名环节。
+[【点此】](https://upload1.miwturizudij.xyz/step_intro.html)进入签名环节。
 ---------------------
