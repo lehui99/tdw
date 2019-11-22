@@ -10,5 +10,5 @@
 如有任何疑问、建议或反馈，欢迎在Issues区里里留言讨论： [【点此进入Issues区】](https://github.com/lehui99/tdw/issues) 。进入后点击右上角的“New issue”按钮进行发帖，注意留言讨论需要注册账号。
 ---------------------
 
-本次联名已经结束，总签名人数：11028，其中10128人提供了手写签名照。这里提供最终递交的《风险化解书》供大家[【下载】](https://github.com/lehui99/tdw/raw/master/doc/%E5%9B%A2%E8%B4%B7%E7%BD%91%E4%BA%8B%E4%BB%B6%E9%A3%8E%E9%99%A9%E5%8C%96%E8%A7%A3%E7%94%B3%E8%AF%B7%E4%B9%A6.pdf)。联名递交工作正在紧张地进行中。
+本次联名已经结束，总签名人数：11028，其中10128人提供了手写签名照。这里提供最终递交的《风险化解书》供大家[【下载】](https://github.com/lehui99/tdw/raw/master/doc/%E5%9B%A2%E8%B4%B7%E7%BD%91%E4%BA%8B%E4%BB%B6%E9%A3%8E%E9%99%A9%E5%8C%96%E8%A7%A3%E7%94%B3%E8%AF%B7%E4%B9%A6.pdf)。联名递交工作正在进行中，在此发放相关递交材料供大家[【下载】](https://quqi.gblhgk.com/s/561601/mhZSftGMtAsYbD3B)。
 ---------------------
